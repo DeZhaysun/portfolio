@@ -1,6 +1,7 @@
 # Personal Website Portfolio
-Made with ``React.JS``
+Deployed at https://dezhaysun.github.io/portfolio/
 
-## Contains:
+## About:
+- Made with ``React.JS``
 - Most Notable Projects
 - Useful Links of Jason Tang

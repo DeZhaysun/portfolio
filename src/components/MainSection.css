@@ -30,3 +30,10 @@
   font-size: 1.3rem;
   color: #666; /* Dark gray text color */
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .typing-text {
+    font-size: 1.9rem; /* Adjust the font size for smaller screens */
+  }
+}
