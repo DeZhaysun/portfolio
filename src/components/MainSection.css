@@ -1,0 +1,32 @@
+/* MainSection.css */
+.main-section {
+  background-color: #F4EBD0; /* Cream background */
+  padding: 50px;
+}
+
+.intro {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.typing-text {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #000; /* Set border color to black */
+  font-size: 36px;
+  animation: typing 4s steps(40, end), blink-caret 0.5s step-end 4s forwards;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #000; }
+}
+.small-text {
+  font-size: 1.3rem;
+  color: #666; /* Dark gray text color */
+}
