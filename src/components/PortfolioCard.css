@@ -61,4 +61,7 @@ p {
   .portfolio-card {
     flex: 0 1 calc(100% - 20px); /* Make each card take up 100% width on smaller screens */
   }
+  .project-details {
+    text-align: left; /* Left-align text on smaller screens */
+  }
 }
