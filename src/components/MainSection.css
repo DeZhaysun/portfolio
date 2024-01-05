@@ -15,6 +15,7 @@
   border-right: 2px solid #000; /* Set border color to black */
   font-size: 36px;
   animation: typing 4s steps(40, end), blink-caret 0.5s step-end 4s forwards;
+  color: #333;
 }
 
 @keyframes typing {
@@ -34,6 +35,6 @@
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
   .typing-text {
-    font-size: 1.9rem; /* Adjust the font size for smaller screens */
+    font-size: 1.7rem; /* Adjust the font size for smaller screens */
   }
 }

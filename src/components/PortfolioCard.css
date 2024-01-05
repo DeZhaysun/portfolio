@@ -1,16 +1,31 @@
 /* PortfolioCard.css */
-.portfolio-card {
+.portfolio-section {
   display: flex;
-  align-items: center;
-  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #F4EBD0; /* Cream background for the card container */
+  padding: 20px; /* Add padding to space the cards from the edges */
+}
+
+.portfolio-card {
+  flex: 0 1 calc(30% - 20px); /* Adjust the width as needed */
+  margin-bottom: 20px;
   padding: 20px;
-  background-color: #333; /* Dark gray background */
+  background-color: #333; /* Dark gray background for each card */
   color: #F4EBD0; /* Cream text color */
+  border-radius: 8px; /* Rounded borders */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05);
 }
 
 img {
-  max-width: 100px;
-  margin-right: 20px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .project-details {
@@ -20,14 +35,26 @@ img {
 h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
+  color: #F4EBD0; /* Cream text color */
 }
 
 h3 {
   font-size: 1rem;
   margin-bottom: 5px;
-  color: #777; /* Grayish text color */
+  color: #888; /* Grayish text color */
 }
 
 .hackathon-winner {
   color: #EF7C8E; /* Reddish-pink text color */
+}
+
+p {
+  color: #F4EBD0; /* Cream text color */
+}
+
+/* Media Query for smaller screens (adjust the max-width as needed) */
+@media (max-width: 768px) {
+  .portfolio-card {
+    flex: 0 1 calc(100% - 20px); /* Make each card take up 100% width on smaller screens */
+  }
 }

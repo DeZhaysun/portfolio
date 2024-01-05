@@ -1,19 +1,21 @@
 // PortfolioCard.jsx
 import React from 'react';
-import './PortfolioCard.css'; // Import your CSS file
+import './PortfolioCard.css';
 
-function PortfolioCard() {
+function PortfolioCard({ projectName, hackathon, techStack, description, githubLink }) {
   return (
     <article className="portfolio-card">
-      <img src="project_image_url" alt="Project Logo" />
-      <div className="project-details">
-        <h2>Project Name</h2>
-        <p className="hackathon-winner">Winner of XYZ Hackathon</p>
-        <h3>Tech Stack</h3>
-        <p>Project description...</p>
-      </div>
+      <a href={githubLink} target="_blank" rel="noopener noreferrer">
+        <img src="project_image_url" alt="Project Logo" />
+        <div className="project-details">
+          <h2>{projectName}</h2>
+          <p className="hackathon-winner">{hackathon}</p>
+          <h3>{techStack}</h3>
+          <p>{description}</p>
+        </div>
+      </a>
     </article>
   );
-};
+}
 
 export default PortfolioCard;

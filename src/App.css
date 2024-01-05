@@ -1,4 +1,14 @@
 /* App.css */
 .app {
   font-family: 'Roboto Mono', monospace;
+  background-color: #F4EBD0;
 }
+.portfolio-header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333; /* Cream text color */
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center; /* Center align the text */
+}
+
