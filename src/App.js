@@ -25,7 +25,7 @@ function App() {
           hackathon="Hack the North 2023"
           techStack="React.js, Flask, OpenAI API"
           description="Do you wish there was an easy way to find nutritious items on a restaurant menu? <br><br>Introducing Smart Bites, the web app that takes a picture of a menu and provides you with personalized recommendations."
-          githubLink="https://github.com/project2"
+          githubLink="https://github.com/liaofrank91/htn2023-react"
           projectImage="smart_bites.png"
         />
         <PortfolioCard
