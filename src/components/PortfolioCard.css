@@ -26,6 +26,10 @@ img {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
+  display: block; /* Ensure the image is a block element */
+  margin-left: auto; /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
+  max-height: 200px; /* Set a max height to prevent images from becoming too tall */
 }
 
 .project-details {
@@ -41,7 +45,7 @@ h2 {
 h3 {
   font-size: 1rem;
   margin-bottom: 5px;
-  color: #888; /* Grayish text color */
+  color: #cccccc; /* Grayish text color */
 }
 
 .hackathon-winner {

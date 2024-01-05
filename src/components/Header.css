@@ -2,12 +2,13 @@
 .header {
   position: fixed;
   top: 0;
-  width: 97%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 20px;
   background-color: #F4EBD0; /* Cream background */
   color: #333; /* Dark gray text color */
+  z-index: 1000;
 }
 
 .logo {
@@ -18,7 +19,7 @@
 
 nav {
   display: flex;
-  margin-right: 10px;
+  margin-right: 45px;
 }
 
 a {
