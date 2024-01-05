@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #F4EBD0; /* Cream background */
+  background-color: #fff2cc; /* Cream background */
   color: #333; /* Dark gray text color */
   z-index: 1000;
 }

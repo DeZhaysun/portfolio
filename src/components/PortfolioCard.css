@@ -3,7 +3,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #F4EBD0; /* Cream background for the card container */
   padding: 20px; /* Add padding to space the cards from the edges */
 }
 
