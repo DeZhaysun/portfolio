@@ -66,5 +66,6 @@ p {
   }
   .project-details {
     text-align: left; /* Left-align text on smaller screens */
+    padding: 10px;
   }
 }
