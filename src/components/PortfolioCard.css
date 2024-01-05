@@ -30,6 +30,7 @@ img {
   margin-left: auto; /* Center the image horizontally */
   margin-right: auto; /* Center the image horizontally */
   max-height: 200px; /* Set a max height to prevent images from becoming too tall */
+  border-radius: 8px; /* Add border-radius for rounded corners */
 }
 
 .project-details {

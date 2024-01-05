@@ -14,9 +14,9 @@ function App() {
       <div className="portfolio-section">
         <PortfolioCard
           projectName="Pawndr"
-          hackathon="Winner at Hack Western 10"
+          hackathon="WINNER at Hack Western 10"
           techStack="React.js, FastAPI, MongoDB, OpenAI API"
-          description="Pawndr is an innovative SMS journaling app designed to make self-reflection simple, engaging, and seamlessly integrated into your daily life. <br><br><i>Awards:</i><br>- Finalist <br>- Best Hack to Help Improve Mental Well-being <br>- Most Creative Use of GitHub <br>- Organizer's Choice Awards"
+          description="Pawndr is an innovative SMS journaling app designed to make self-reflection simple, engaging, and seamlessly integrated into your daily life. <br><br>AWARDS:<br>- Finalist <br>- Best Hack to Help Improve Mental Well-being <br>- Most Creative Use of GitHub <br>- Organizer's Choice Awards"
           githubLink="https://github.com/hack-western-2023/pawndr"
           projectImage="pawndr.jpg"
         />
@@ -30,17 +30,17 @@ function App() {
         />
         <PortfolioCard
           projectName="Verses"
-          hackathon="Winner at Hack Western 9"
+          hackathon="WINNER at Hack Western 9"
           techStack="React.js, Spotify API"
-          description="Verses is a music quiz app that allows users to test themselves and their friends on their music taste by creating a quiz that randomly generates questions on their music taste. <br><br><i>Awards:</i><br>- Organizer's Choice Awards"
+          description="Verses is a music quiz app that allows users to test themselves and their friends on their music taste by creating a quiz that randomly generates questions on their music taste. <br><br>AWARDS:<br>- Organizer's Choice Awards"
           githubLink="https://github.com/OmarCodes2/hackwestern"
           projectImage="verses.jpg"
         />
         <PortfolioCard
           projectName="AFK Student"
-          hackathon="Winner at Ignition Hacks 2021"
+          hackathon="WINNER at Ignition Hacks 2021"
           techStack="Python, Twilio, OCR"
-          description="Imagine being able to leave your meets, without the fear of being called on. Behold AFK Student. AFK Student is a program that lets you leave your meet and alerts you when your name gets called.<br><br><i>Awards:</i><br>-Division Sigma 1st Place"
+          description="Imagine being able to leave your meets, without the fear of being called on. <br><br>Behold AFK Student. AFK Student is a program that lets you leave your meet and alerts you when your name gets called.<br><br>AWARDS:<br>-Division Sigma 1st Place"
           githubLink="https://devpost.com/software/warning-lmvyx3"
           projectImage="afkstudent.png"
         />
@@ -49,7 +49,7 @@ function App() {
           hackathon="ICS4U1"
           techStack="Python, SQLite"
           description="
-A grocery store management program enables CRUD operations on three tables: inventory, employee, and sales. <br>Employee roles (owner, supervisor, cashier) are defined, with the owner having unrestricted access.<br><br>Obtained 95% on the project"
+A grocery store management program enables CRUD operations on three tables: inventory, employee, and sales. <br><br>Employee roles (owner, supervisor, cashier) are defined, with the owner having unrestricted access.<br><br>Obtained 95% on the project."
           githubLink="https://github.com/DeZhaysun/Loris-Grocer"
           projectImage="loris.png"
         />
