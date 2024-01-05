@@ -34,6 +34,7 @@ img {
 
 .project-details {
   flex: 1;
+  padding: 20px;
 }
 
 h2 {
@@ -50,10 +51,12 @@ h3 {
 
 .hackathon-winner {
   color: #EF7C8E; /* Reddish-pink text color */
+  font-weight: bold;
 }
 
 p {
   color: #F4EBD0; /* Cream text color */
+  font-weight: 500;
 }
 
 /* Media Query for smaller screens (adjust the max-width as needed) */
