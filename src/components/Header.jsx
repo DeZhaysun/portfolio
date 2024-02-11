@@ -21,7 +21,7 @@ function Header() {
         <a href="#portfolio-header">Portfolio</a>
         <a href="https://www.linkedin.com/in/jasontang03/" target='_'>LinkedIn</a>
         <a href="https://github.com/DeZhaysun/" target='_'>GitHub</a>
-        <a href="https://drive.google.com/file/d/18C4pNQlM7fN__C5KBH_XGo8rNEML-Ams/view?usp=sharing" target='_'>Resumé</a>
+        <a href="https://drive.google.com/file/d/1q3mDr7zR11IQVKMZ7fcisbhlUwnakiRf/view?usp=sharing" target='_'>Resumé</a>
         <a href="mailto: shuaihangtang@gmail.com" target='_'>Email</a>
       </nav>
     </header>
