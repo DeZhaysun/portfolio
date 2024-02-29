@@ -41,6 +41,15 @@ function App() {
           projectImage="project1_image.jpeg"
         />
         <PortfolioCard
+          projectName="Playing Card Classifier"
+          hackathon=""
+          techStack="PyTorch, torchvision, timm (for model architectures), Python, Jupyter Notebook"
+          description="This project focuses on building an image classifier using PyTorch to detect playing cards. 
+          <br><br>The model is trained to classify images of playing cards into different categories based on their suits and ranks."
+          githubLink="https://github.com/DeZhaysun/PlayingCardClassifier"
+          projectImage="pytorch.png"
+        />
+        <PortfolioCard
           projectName="Smart Bites"
           hackathon="Hack the North 2023"
           techStack="React.js, Flask, OpenAI API"
