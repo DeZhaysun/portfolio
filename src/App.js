@@ -21,6 +21,26 @@ function App() {
           projectImage="pawndr.jpg"
         />
         <PortfolioCard
+          projectName="Churn Model with TensorFlow"
+          hackathon=""
+          techStack="TensorFlow, Pandas, MatPlotLib, Jupyter Notebook, Python"
+          description="This project focuses on building a churn prediction model using TensorFlow, a powerful machine learning library. 
+          <br><br>The churn prediction model aims to predict whether customers will leave a telecommunications provider based on various features."
+          githubLink="https://github.com/DeZhaysun/Churn-Model-with-TensorFlow/"
+          projectImage="churn.png"
+        />
+        <PortfolioCard
+          projectName="WLP4 Compiler (Project Link Unavailable)"
+          hackathon="CS241 Sequential Programs (Compilers and Languages) (University of Waterloo)"
+          techStack="C++, Assembly"
+          description="Developed a WLP4 (simplified, yet complete C++) compiler.
+          <br><br>Encompassed language parsing, semantic analysis, and code generation and 
+          facilitated the translation of WLP4 source code into assembly language.
+          <br><br> Converted the intermediate assembly code into binary machine code with code optimization."
+          githubLink="https://student.cs.uwaterloo.ca/~cs241/wlp4/"
+          projectImage="project1_image.jpeg"
+        />
+        <PortfolioCard
           projectName="Smart Bites"
           hackathon="Hack the North 2023"
           techStack="React.js, Flask, OpenAI API"
@@ -62,7 +82,7 @@ A grocery store management program enables CRUD operations on three tables: inve
           projectImage="wavey.png"
         />
         <PortfolioCard
-          projectName="RAIINET (PROJECT LINK NOT AVAILABLE)"
+          projectName="RAIINET (Project Link Unavailable)"
           hackathon="CS246 Object Oriented Software (University of Waterloo)"
           techStack="C++"
           description="Developed a sophisticated board games with X11 graphics and C++ in a team of 3.<br><br>Designed the program with a UML and implemented design patterns such as MVC and the Observer pattern while using principles such as polymorphism, encapsulation and inheritance.<br><br>Obtained 102% with bonus features."
