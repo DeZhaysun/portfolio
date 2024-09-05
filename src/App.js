@@ -21,24 +21,23 @@ function App() {
           projectImage="pawndr.jpg"
         />
         <PortfolioCard
-          projectName="Churn Model with TensorFlow"
-          hackathon=""
-          techStack="TensorFlow, Pandas, MatPlotLib, Jupyter Notebook, Python"
-          description="This project focuses on building a churn prediction model using TensorFlow, a powerful machine learning library. 
-          <br><br>The churn prediction model aims to predict whether customers will leave a telecommunications provider based on various features."
-          githubLink="https://github.com/DeZhaysun/Churn-Model-with-TensorFlow/"
-          projectImage="churn.png"
+          projectName="Maestro"
+          hackathon="Hack the 6ix 2024"
+          techStack="React Native, FastAPI, Spotify API, WebSockets"
+          description="An interactive music quiz mobile app designed to test your knowledge of songs and artists with friends.
+          <br><br>Enables users to sign in with their Spotify accounts, create game rooms, and share them to play with other users using
+          WebSockets.
+          "
+          githubLink="https://github.com/OmarCodes2/Bridge"
+          projectImage="maestro.jpg"
         />
         <PortfolioCard
-          projectName="WLP4 Compiler (Project Link Unavailable)"
-          hackathon="CS241 Sequential Programs (Compilers and Languages) (University of Waterloo)"
-          techStack="C++, Assembly"
-          description="Developed a WLP4 (simplified, yet complete C++) compiler.
-          <br><br>Encompassed language parsing, semantic analysis, and code generation and 
-          facilitated the translation of WLP4 source code into assembly language.
-          <br><br> Converted the intermediate assembly code into binary machine code with code optimization."
-          githubLink="https://student.cs.uwaterloo.ca/~cs241/wlp4/"
-          projectImage="project1_image.jpeg"
+          projectName="Critiqly"
+          hackathon="Hawk Hacks 2024"
+          techStack="React.js, FastAPI, MongoDB, OpenAI API"
+          description="Critiqly is an AI-powered, gamified code review platform designed to elevate your code review experience. <br><br> Users can practice code reviews, receive instant AI feedback, and immerse themselves in company code review standards at their own pace."
+          githubLink="https://github.com/OmarCodes2/Critiqly"
+          projectImage="critiqly.png"
         />
         <PortfolioCard
           projectName="Playing Card Classifier"
@@ -48,14 +47,6 @@ function App() {
           <br><br>The model is trained to classify images of playing cards into different categories based on their suits and ranks."
           githubLink="https://github.com/DeZhaysun/PlayingCardClassifier"
           projectImage="pytorch.png"
-        />
-        <PortfolioCard
-          projectName="Smart Bites"
-          hackathon="Hack the North 2023"
-          techStack="React.js, Flask, OpenAI API"
-          description="Do you wish there was an easy way to find nutritious items on a restaurant menu? <br><br>Introducing Smart Bites, the web app that takes a picture of a menu and provides you with personalized recommendations."
-          githubLink="https://github.com/liaofrank91/htn2023-react"
-          projectImage="smart_bites.png"
         />
         <PortfolioCard
           projectName="Verses"
@@ -74,6 +65,25 @@ function App() {
           projectImage="afkstudent.png"
         />
         <PortfolioCard
+          projectName="Smart Bites"
+          hackathon="Hack the North 2023"
+          techStack="React.js, Flask, OpenAI API"
+          description="Do you wish there was an easy way to find nutritious items on a restaurant menu? <br><br>Introducing Smart Bites, the web app that takes a picture of a menu and provides you with personalized recommendations."
+          githubLink="https://github.com/liaofrank91/htn2023-react"
+          projectImage="smart_bites.png"
+        />
+        <PortfolioCard
+          projectName="WLP4 Compiler (Project Link Unavailable)"
+          hackathon="CS241 Sequential Programs (Compilers and Languages) (University of Waterloo)"
+          techStack="C++, Assembly"
+          description="Developed a WLP4 (simplified, yet complete C++) compiler.
+          <br><br>Encompassed language parsing, semantic analysis, and code generation and 
+          facilitated the translation of WLP4 source code into assembly language.
+          <br><br> Converted the intermediate assembly code into binary machine code with code optimization."
+          githubLink="https://student.cs.uwaterloo.ca/~cs241/wlp4/"
+          projectImage="project1_image.jpeg"
+        />
+        <PortfolioCard
           projectName="Lori's Grocer"
           hackathon="ICS4U1"
           techStack="Python, SQLite"
@@ -81,6 +91,15 @@ function App() {
 A grocery store management program enables CRUD operations on three tables: inventory, employee, and sales. <br><br>Employee roles (owner, supervisor, cashier) are defined, with the owner having unrestricted access.<br><br>Obtained 95% on the project."
           githubLink="https://github.com/DeZhaysun/Loris-Grocer"
           projectImage="loris.png"
+        />
+        <PortfolioCard
+          projectName="Churn Model with TensorFlow"
+          hackathon=""
+          techStack="TensorFlow, Pandas, MatPlotLib, Jupyter Notebook, Python"
+          description="This project focuses on building a churn prediction model using TensorFlow, a powerful machine learning library. 
+          <br><br>The churn prediction model aims to predict whether customers will leave a telecommunications provider based on various features."
+          githubLink="https://github.com/DeZhaysun/Churn-Model-with-TensorFlow/"
+          projectImage="churn.png"
         />
         <PortfolioCard
           projectName="Wavey"
