@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4a1b21ca.css",
-    "main.js": "/portfolio/static/js/main.07f6b71d.js",
+    "main.css": "/portfolio/static/css/main.4babb1c3.css",
+    "main.js": "/portfolio/static/js/main.4b121830.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/me.png": "/portfolio/static/media/me.e76fcfbb7d04d12c0ecb.png",
     "static/media/iguodala.png": "/portfolio/static/media/iguodala.f0bddc9ac93be6fc4f06.png",
     "static/media/crosstheroad.png": "/portfolio/static/media/crosstheroad.8e4ba04841b9652453a0.png",
     "static/media/pytorch.png": "/portfolio/static/media/pytorch.6adf96cede264db76f7e.png",
     "static/media/smart_bites.png": "/portfolio/static/media/smart_bites.d6393a04006b66047081.png",
     "static/media/critiqly.png": "/portfolio/static/media/critiqly.59c8877e6ba0e9bbec81.png",
-    "static/media/me.jpg": "/portfolio/static/media/me.3a10d2d78769377c38f5.jpg",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.268680c43ae8edce3332.png",
     "static/media/pawndr.jpg": "/portfolio/static/media/pawndr.cf6341f4514ba9e1309d.jpg",
     "static/media/afkstudent.png": "/portfolio/static/media/afkstudent.831a74d7734e3be8fe39.png",
@@ -17,12 +17,12 @@
     "static/media/wavey.png": "/portfolio/static/media/wavey.14fbda72668020d66aa4.png",
     "static/media/maestro.jpg": "/portfolio/static/media/maestro.f5dafac6d16f9b8335b5.jpg",
     "index.html": "/portfolio/index.html",
-    "main.4a1b21ca.css.map": "/portfolio/static/css/main.4a1b21ca.css.map",
-    "main.07f6b71d.js.map": "/portfolio/static/js/main.07f6b71d.js.map",
+    "main.4babb1c3.css.map": "/portfolio/static/css/main.4babb1c3.css.map",
+    "main.4b121830.js.map": "/portfolio/static/js/main.4b121830.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a1b21ca.css",
-    "static/js/main.07f6b71d.js"
+    "static/css/main.4babb1c3.css",
+    "static/js/main.4b121830.js"
   ]
 }
