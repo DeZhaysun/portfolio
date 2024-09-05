@@ -3,9 +3,11 @@ import React, { useEffect } from 'react';
 import './MainSection.css';
 
 function MainSection() {
+  const imgsrc = require(`./images/me.jpg`)
   return (
     <section className="main-section">
       <div className="intro">
+        <img className="my-img" src={imgsrc} alt="ME" />
         <h1 className="typing-text">Hello, I'm Jason!</h1>
         <p className="small-text">I am a results-driven software developer experienced in full-stack app development, algorithms, and database management.</p>
         <p className="small-text">Current Computer Science student at the University of Waterloo. Interested in Algorithms and Machine Learning.</p>

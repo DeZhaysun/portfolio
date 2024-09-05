@@ -8,6 +8,17 @@
   margin: 0 auto;
 }
 
+.my-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  display: block; /* Ensure the image is a block element */
+  margin-left: auto; /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
+  max-height: 300px; /* Set a max height to prevent images from becoming too tall */
+  border-radius: 8px;
+}
+
 .typing-text {
   overflow: hidden;
   white-space: nowrap;
