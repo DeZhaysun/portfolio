@@ -9,6 +9,7 @@
 }
 
 .my-img {
+  padding-top: 20px;
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
@@ -16,7 +17,7 @@
   margin-left: auto; /* Center the image horizontally */
   margin-right: auto; /* Center the image horizontally */
   max-height: 300px; /* Set a max height to prevent images from becoming too tall */
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 .typing-text {

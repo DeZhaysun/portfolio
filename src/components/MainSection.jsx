@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import './MainSection.css';
 
 function MainSection() {
-  const imgsrc = require(`./images/me.jpg`)
+  const imgsrc = require(`./images/me.png`)
   return (
     <section className="main-section">
       <div className="intro">
