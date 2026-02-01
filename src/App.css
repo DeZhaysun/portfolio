@@ -154,17 +154,7 @@ body {
 }
 
 .timeline-details::before {
-  content: '';
-  position: absolute;
-  top: -8px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 16px;
-  height: 16px;
-  background: rgba(20, 27, 45, 0.98);
-  border-left: 1px solid var(--border);
-  border-top: 1px solid var(--border);
-  transform: translateX(-50%) rotate(45deg);
+  display: none;
 }
 
 .timeline-details .timeline-role {
@@ -202,12 +192,25 @@ body {
 }
 
 @media (max-width: 600px) {
+  .timeline-horizontal {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .timeline-logo {
+    pointer-events: none;
+  }
+
   .timeline-details {
     position: static;
     transform: none;
     opacity: 1;
-    pointer-events: auto;
+    pointer-events: none;
     margin-top: 6px;
+  }
+
+  .timeline-details .timeline-blurb {
+    display: none;
   }
 
   .timeline-horizontal::before {
