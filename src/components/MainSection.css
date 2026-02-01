@@ -1,6 +1,7 @@
 /* MainSection.css */
 .main-section {
   padding: 64px 24px 80px;
+  scroll-margin-top: 80px;
 }
 
 .container {

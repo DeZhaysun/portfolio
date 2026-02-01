@@ -23,6 +23,7 @@ body {
   color: var(--text);
   font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 .app {
@@ -35,6 +36,7 @@ body {
 
 .portfolio {
   padding: 40px 24px 80px;
+  scroll-margin-top: 80px;
 }
 
 .section-header {
@@ -56,6 +58,7 @@ body {
 
 .experience {
   padding: 40px 24px 40px;
+  scroll-margin-top: 80px;
 }
 
 .timeline-horizontal {
