@@ -215,7 +215,7 @@ function App() {
               techStack="React.js"
               description="The website you are looking at right now! <br><br>Personal website displaying all my projects along with useful links."
               githubLink="https://github.com/DeZhaysun/portfolio"
-              projectImage="portfolio.png"
+              projectImage="website.png"
             />
             <PortfolioCard
               projectName="React Iguodala"
