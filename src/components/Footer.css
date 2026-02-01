@@ -1,8 +1,9 @@
 /* Footer.css */
 
 .footer {
-  background-color: #333; /* Dark background color */
-  color: #F4EBD0; /* Cream text color */
+  background: rgba(11, 15, 26, 0.9);
+  color: #9aa4b2;
   text-align: center;
-  padding: 10px;
+  padding: 24px;
+  border-top: 1px solid rgba(124, 92, 255, 0.15);
 }

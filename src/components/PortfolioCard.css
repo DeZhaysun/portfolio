@@ -1,71 +1,80 @@
 /* PortfolioCard.css */
 .portfolio-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 20px; /* Add padding to space the cards from the edges */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .portfolio-card {
-  flex: 0 1 calc(30% - 20px); /* Adjust the width as needed */
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: #333; /* Dark gray background for each card */
-  color: #F4EBD0; /* Cream text color */
-  border-radius: 8px; /* Rounded borders */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: transform 0.3s ease-in-out;
+  background: rgba(20, 27, 45, 0.85);
+  color: var(--text);
+  border-radius: 18px;
+  border: 1px solid rgba(124, 92, 255, 0.2);
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
 }
 
 .portfolio-card:hover {
-  transform: scale(1.05);
+  transform: translateY(-6px);
+  border-color: rgba(0, 212, 255, 0.4);
+  box-shadow: 0 30px 60px rgba(2, 6, 23, 0.6);
 }
 
-img {
+.portfolio-card a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.portfolio-card img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 10px;
-  display: block; /* Ensure the image is a block element */
-  margin-left: auto; /* Center the image horizontally */
-  margin-right: auto; /* Center the image horizontally */
-  max-height: 200px; /* Set a max height to prevent images from becoming too tall */
-  border-radius: 8px; /* Add border-radius for rounded corners */
+  display: block;
+  object-fit: cover;
+  max-height: 200px;
+  width: 100%;
 }
 
 .project-details {
-  flex: 1;
-  padding: 20px;
+  padding: 18px 20px 22px;
 }
 
-h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: #F4EBD0; /* Cream text color */
+.project-details h2 {
+  font-size: 1.2rem;
+  margin: 0 0 8px;
+  color: #f8fafc;
 }
 
-h3 {
-  font-size: 1rem;
-  margin-bottom: 5px;
-  color: #cccccc; /* Grayish text color */
+.project-details h3 {
+  font-size: 0.9rem;
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-weight: 500;
 }
 
 .hackathon-winner {
-  color: #EF7C8E; /* Reddish-pink text color */
-  font-weight: bold;
+  color: var(--accent-2);
+  font-weight: 600;
+  margin: 0 0 4px;
+  font-size: 0.9rem;
 }
 
-p {
-  color: #F4EBD0; /* Cream text color */
+.project-details p {
+  color: #d1d5db;
   font-weight: 500;
+  font-size: 0.95rem;
 }
 
 /* Media Query for smaller screens (adjust the max-width as needed) */
 @media (max-width: 768px) {
   .portfolio-card {
-    flex: 0 1 calc(100% - 20px); /* Make each card take up 100% width on smaller screens */
+    border-radius: 16px;
   }
   .project-details {
-    text-align: left; /* Left-align text on smaller screens */
-    padding: 10px;
+    padding: 16px;
   }
 }
