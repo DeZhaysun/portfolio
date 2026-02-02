@@ -10,7 +10,7 @@ function MainSection() {
         <div className="intro">
           <p className="eyebrow">Software Engineer • Full-Stack • ML</p>
           <h1 className="typing-text">Hello, I'm Jason Tang.</h1>
-          <p className="lead">Computer Science student at the University of Waterloo (3.9 GPA), graduating 2026. Interested in algorithms and machine learning.</p>
+          <p className="lead">Computer Science student at the University of Waterloo, graduating 2026. Interested in algorithms and machine learning.</p>
           <p className="lead">Software engineer with full-stack, data, and infrastructure experience across Android, web, and cloud platforms.</p>
           <div className="cta-row">
             <a className="btn primary" href="#portfolio">View projects</a>
