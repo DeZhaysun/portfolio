@@ -106,7 +106,7 @@ function App() {
             />
             <PortfolioCard
               projectName="Maestro"
-              hackathon="Hack the 6ix 2024"
+              hackathon=""
               techStack="React Native, FastAPI, Spotify API, WebSockets"
               description="An interactive music quiz mobile app designed to test your knowledge of songs and artists with friends.
               <br><br>Enables users to sign in with their Spotify accounts, create game rooms, and share them to play with other users using
@@ -117,7 +117,7 @@ function App() {
             />
             <PortfolioCard
               projectName="Critiqly"
-              hackathon="Hawk Hacks 2024"
+              hackathon=""
               techStack="React.js, FastAPI, MongoDB, OpenAI API"
               description="Critiqly is an AI-powered, gamified code review platform designed to elevate your code review experience. <br><br> Users can practice code reviews, receive instant AI feedback, and immerse themselves in company code review standards at their own pace."
               githubLink="https://github.com/OmarCodes2/Critiqly"
@@ -150,7 +150,7 @@ function App() {
             />
             <PortfolioCard
               projectName="Smart Bites"
-              hackathon="Hack the North 2023"
+              hackathon=""
               techStack="React.js, Flask, OpenAI API"
               description="Do you wish there was an easy way to find nutritious items on a restaurant menu? <br><br>Introducing Smart Bites, the web app that takes a picture of a menu and provides you with personalized recommendations."
               githubLink="https://github.com/liaofrank91/htn2023-react"
@@ -169,10 +169,10 @@ function App() {
             />
             <PortfolioCard
               projectName="Lori's Grocer"
-              hackathon="ICS4U1"
+              hackathon=""
               techStack="Python, SQLite"
               description="
-  A grocery store management program enables CRUD operations on three tables: inventory, employee, and sales. <br><br>Employee roles (owner, supervisor, cashier) are defined, with the owner having unrestricted access.<br><br>Obtained 95% on the project."
+  A grocery store management program enables CRUD operations on three tables: inventory, employee, and sales. <br><br>Employee roles (owner, supervisor, cashier) are defined, with the owner having unrestricted access."
               githubLink="https://github.com/DeZhaysun/Loris-Grocer"
               projectImage="loris.png"
             />
@@ -187,7 +187,7 @@ function App() {
             />
             <PortfolioCard
               projectName="Wavey"
-              hackathon="Hack the North 2021"
+              hackathon=""
               techStack="Python, OpenCV, OCR"
               description="The Ultimate Note-Taking Assistant for Students.<br><br>Wavey makes note-taking incredibly efficient by utilizing hand gestures to perform certain actions to aid students."
               githubLink="https://github.com/DeZhaysun/Wavey"
