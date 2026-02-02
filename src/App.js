@@ -18,7 +18,7 @@ function App() {
           </div>
           <div className="timeline-horizontal">
             <article className="timeline-logo" tabIndex="0">
-              <div className="logo-badge">M</div>
+              <img src={require('./components/images/meta.png')} alt="Meta" className="logo-image" />
               <div className="logo-meta">
                 <h3>Meta</h3>
                 <span>Sep 2025 - Dec 2025</span>
@@ -30,7 +30,7 @@ function App() {
             </article>
 
             <article className="timeline-logo" tabIndex="0">
-              <div className="logo-badge">LD</div>
+              <img src={require('./components/images/loblaw.png')} alt="Loblaw Digital" className="logo-image" />
               <div className="logo-meta">
                 <h3>Loblaw Digital</h3>
                 <span>Jan 2025 - Apr 2025</span>
@@ -42,7 +42,7 @@ function App() {
             </article>
 
             <article className="timeline-logo" tabIndex="0">
-              <div className="logo-badge">LS</div>
+              <img src={require('./components/images/lynx.jpg')} alt="Lynx Software" className="logo-image" />
               <div className="logo-meta">
                 <h3>Lynx Software</h3>
                 <span>May 2024 - Aug 2024</span>
@@ -54,7 +54,7 @@ function App() {
             </article>
 
             <article className="timeline-logo" tabIndex="0">
-              <div className="logo-badge">WR</div>
+              <img src={require('./components/images/windriver.jpg')} alt="Wind River" className="logo-image" />
               <div className="logo-meta">
                 <h3>Wind River</h3>
                 <span>Sep 2023 - Dec 2023</span>
@@ -66,7 +66,7 @@ function App() {
             </article>
 
             <article className="timeline-logo" tabIndex="0">
-              <div className="logo-badge">TM</div>
+              <img src={require('./components/images/trend micro.png')} alt="Trend Micro" className="logo-image" />
               <div className="logo-meta">
                 <h3>Trend Micro</h3>
                 <span>Jan 2023 - Apr 2023</span>
@@ -78,7 +78,7 @@ function App() {
             </article>
 
             <article className="timeline-logo" tabIndex="0">
-              <div className="logo-badge">PK</div>
+              <img src={require('./components/images/peekapak.png')} alt="Peekapak" className="logo-image" />
               <div className="logo-meta">
                 <h3>Peekapak</h3>
                 <span>May 2022 - Sep 2022</span>
