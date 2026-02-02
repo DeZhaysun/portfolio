@@ -25,7 +25,7 @@ function Header() {
         <nav className={isNavVisible ? 'active' : ''}>
           <a href="#experience">Experience</a>
           <a href="#portfolio">Projects</a>
-          <a href="https://drive.google.com/file/d/1_xXIDRAf4EavCGt0nvYEIoG4foX5qDh4/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resumé</a>
+          <a href="/portfolio/resume.pdf" target="_blank" rel="noopener noreferrer">Resumé</a>
           <a className="icon-link" href="https://www.linkedin.com/in/jasontang03/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
               <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm-2 6.5h4v10h-4V10Zm7 0h3.8v1.4h.05c.53-.95 1.84-1.95 3.79-1.95 4.05 0 4.8 2.67 4.8 6.15V20h-4v-4.6c0-1.1-.02-2.52-1.54-2.52-1.54 0-1.77 1.2-1.77 2.44V20h-4V10Z" />

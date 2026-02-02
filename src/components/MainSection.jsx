@@ -16,7 +16,7 @@ function MainSection() {
             <a className="btn primary" href="#portfolio">View projects</a>
             <a
               className="btn ghost"
-              href="https://drive.google.com/file/d/1_xXIDRAf4EavCGt0nvYEIoG4foX5qDh4/view?usp=sharing"
+              href="/portfolio/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
