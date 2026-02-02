@@ -31,12 +31,10 @@
 }
 
 .portfolio-card img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 200px;
   display: block;
   object-fit: cover;
-  max-height: 200px;
-  width: 100%;
 }
 
 .project-details {

@@ -210,7 +210,7 @@ function App() {
               projectImage="crosstheroad.png"
             />
             <PortfolioCard
-              projectName="Projects"
+              projectName="Personal Website"
               hackathon=""
               techStack="React.js"
               description="The website you are looking at right now! <br><br>Personal website displaying all my projects along with useful links."
